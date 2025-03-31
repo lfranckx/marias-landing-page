@@ -43,7 +43,6 @@ export default function LandingPage() {
 
       {/* About Section */}
       <section className="py-16 px-6 max-w-6xl mx-auto">
-        <h2 className="text-3xl font-semibold mb-12 text-center border-b-2 border-[#b49fcc] inline-block pb-2">About Maria</h2>
         <div className="flex flex-col md:flex-row items-center md:items-start gap-10">
           <div className="flex-shrink-0">
             <img
@@ -53,6 +52,7 @@ export default function LandingPage() {
             />
           </div>
           <div className="text-lg leading-relaxed max-w-2xl">
+            <h2 className="text-3xl font-semibold mb-12 text-center border-b-2 border-[#b49fcc] inline-block pb-2">About Maria</h2>
             <p>
               With a lifelong passion for fitness and wellness, Maria brings a wealth of knowledge and energy to her practice. Certified in numerous disciplines including Pilates, Yoga, and Barre, she also offers dynamic instruction in Mat and Apparatus (Reformer) Pilates.
             </p>
